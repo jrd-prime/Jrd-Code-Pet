@@ -12,7 +12,7 @@ namespace Infrastructure.Bootstrap
         public BootstrapLoader(IBootstrapUIController controller) => _controller = controller;
         
         public void EnqueueBootable(IBootable bootable) => _loadingQueue.Enqueue(bootable);
-
+        
         public async UniTask StartServicesInitializationAsync(int pseudoDelay = 0)
         {
             if (_loadingQueue.Count == 0)

@@ -10,8 +10,8 @@ namespace Infrastructure.Bootstrap
     {
         private const string AppName = "App name";
         private const string BootstrapContainerId = "bootstrap-container";
-        private const string LoadingLabelId = "desc";
-        private const string AppNameLabelId = "title";
+        private const string LoadingLabelId = "desc-label";
+        private const string AppNameLabelId = "title-label";
 
         [Inject] private IBootstrapUIController _controller;
         private readonly CompositeDisposable _disposables = new();

@@ -54,7 +54,6 @@
     <Compile Include="Assets\Scripts\Infrastructure\Installers\BootstrapInstaller.cs" />
     <Compile Include="Assets\Scripts\Infrastructure\Bootstrap\IBootable.cs" />
     <Compile Include="Assets\Scripts\Data\BootstrapSettings.cs" />
-    <Compile Include="Assets\Scripts\Infrastructure\SampleService.cs" />
     <Compile Include="Assets\Scripts\Infrastructure\Bootstrap\BootstrapUIView.cs" />
     <Compile Include="Assets\Scripts\Infrastructure\AppStarter.cs" />
     <Compile Include="Assets\Scripts\Game\Extensions\VisualElementExtensions.cs" />
